@@ -7,17 +7,21 @@
 <body>
   <div class="container">
     <header>
-      <h1>Really Awesome Music Site</h1>
+      <h1 id="pageTitle">Play me some tunes!</h1>
     </header>
     <section class="player">
-      <audio class="music-player" controls="controls" src=""></audio>
+      <audio class="music-player" controls="controls" src="" autoplay></audio>
     </section>
     <section class="search">
       <form class="search-form">
-        
+        <input id="inputField" type="text" name="search" placeholder="Gime me some tunes!" value ="">
+        <input id="submitButton" type="submit" name="" value="Search">
       </form>
     </section>
-    <section class="results"></section>
+    <section class="results">
+      <h3 id="resultsHeader">Search Results</h3>
+      <div class="resultsDisplay"></div>
+    </section>
   </div>
   <script src="main.js"></script>
 </body>

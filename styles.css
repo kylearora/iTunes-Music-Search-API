@@ -1,3 +1,156 @@
 body {
-  background-color: #60d9f1;
+  background-color: #6B6B6B;
+  display: flex;
+  justify-content: center;
+  background-color:#556;
+  background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+  linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+  linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+  linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+  linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),
+  linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+  background-size:80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+.container{
+  width: 1400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: futura;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+#pageTitle {
+  color: white;
+  font-size: 40px;
+  width: 600px;
+  height: 60px;
+  background-color: #2D292B;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.player {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.music-player {
+  width: 600px;
+  margin-top: 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: #3AEB7B;
+}
+
+.search-form  {
+  display: flex;
+  justify-content: center;
+  width:600px;
+  margin-top: 35px;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  padding: 30px 0px 30px 0px;
+}
+
+#inputField {
+  width: 75%;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #2D292B;
+}
+
+#submitButton {
+  width: 140px;
+  height: 35px;
+  margin-left: 20px;
+  color: #2D292B;
+  border: 2px solid #2D292B;
+  border-radius: 5px;
+  background-color: #6DBDEB;
+}
+
+#submitButton:hover {
+  background: #3AEB7B
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+}
+
+#resultsHeader {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  color: white;
+  background-color: #2D292B;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.resultsDisplay {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding-top: 15px;
+  background-color: #2D292B;
+  border-radius: 15px;
+
+}
+
+.searchResultsItems {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 250px;
+  margin-top: 10px;
+}
+
+a h3  {
+  font-weight: lighter;
+}
+
+a h4 {
+  font-weight: lighter;
+  color: #6DBDEB;
+}
+
+a {
+  text-decoration: none;
+}
+
+.resultsArtist {
+  width: 200px;
+  color: white;
+}
+
+.resultsTitle {
+  width: 200px;
+}
+
+.resultsImage{
+  width: 200px;
+  height: 200px;
+  border: 2px solid white;
+  border-radius: 10px;
 }
