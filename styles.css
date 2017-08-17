@@ -1,3 +1,4 @@
+
 body {
   background-color: #6B6B6B;
   display: flex;
@@ -115,7 +116,6 @@ header {
   padding-top: 15px;
   background-color: #2D292B;
   border-radius: 15px;
-
 }
 
 .searchResultsItems {
